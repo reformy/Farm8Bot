@@ -8,5 +8,6 @@ public class Main
 	{
 		TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
 		telegramBotsApi.registerBot(new Farm8Bot());
+		telegramBotsApi.registerBot(new ZainBot());
 	}
 }
